@@ -1,0 +1,24 @@
+# Personal Instagram export / generated outputs (do not commit)
+followers.html
+following.html
+followers.json
+following.json
+comparison.json
+*_followers.json
+*_following.json
+*_comparison.json
+
+# IDE
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Env files
+.env
+
