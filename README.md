@@ -1,13 +1,19 @@
 # Instagram Unfollowers
 
-Small Python script that extracts Instagram **followers** and **following** usernames from the HTML files in your Instagram data export, and writes the results to JSON.
+Small Python script that extracts Instagram **followers** and **following** usernames from HTML, and writes the results to JSON.
 
 ## What you need
 
 - Python 3.10+ recommended
-- Your export HTML files in this folder:
+- Your HTML files in this folder:
   - `followers.html`
   - `following.html`
+
+## Getting `followers.html` / `following.html` from the browser
+
+Open Instagram in your browser, open DevTools (F12), go to the **Elements** tab, and select the main scrollable container that contains the list of users (like in the screenshot). Then **Copy → Copy element** and paste the result into a file named `followers.html` or `following.html`.
+
+![Which element to copy from DevTools](imgs/img.png)
 
 ## Run
 
