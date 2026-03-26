@@ -13,6 +13,8 @@ Small Python script that extracts Instagram **followers** and **following** user
 
 Open Instagram in your browser, open DevTools (F12), go to the **Elements** tab, and select the main scrollable container that contains the list of users (like in the screenshot). Then **Copy → Copy element** and paste the result into a file named `followers.html` or `following.html`.
 
+> you have to first load all followers in the DOM
+
 ![Which element to copy from DevTools](imgs/img.png)
 
 ## Run
